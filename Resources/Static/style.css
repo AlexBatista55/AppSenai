@@ -1,0 +1,41 @@
+body {
+	background-image: linear-gradient(to top,white,blue );
+}
+h1 {
+	color: rgb(3, 10, 10);
+}
+
+div {
+	display: block;
+}
+
+.teste {
+	color: red;
+}
+
+.title {
+	margin-top: 5px;
+}
+
+.title-item {
+	margin: 8px 0px;
+}
+
+.title-item i {
+	padding-right: 5px;
+}
+.contato-centralizado
+{
+	padding: 2px 10px;
+}
+.contato-centralizado{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a {
+	color:black ;
+}
+
+a:hover {
+	color: white;
+}

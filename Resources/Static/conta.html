@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Banco digital SESI SENAI</title>
+    <LINK rel="icon" type="icon/x-image" href="images/favicon.png">
+    <LINK rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<a href="index.html">Cadastro de pessoa</a>
+<a href="conta.html">Cadastre sua conta</a>
+<a href="gerenciar.html">Gerencia sua conta</a>
+<a href="contato.html">Contato</a>
+<div>
+    <h1>Cadastro de conta</h1>
+    <label for="numero_conta"> Número conta</label>
+    <br><input id = "numero_conta" type = "text" readonly><br>
+    <label for="saldo">Saldo</label>
+    <br><input id = "saldo" type = "text" readonly><br>
+
+    <br><label for="tipo_conta">Selecione o tipo da sua conta</label>
+    <br><select id = "tipo_conta">
+    <option value="CORRENTE"> Conta corrente</option>
+    <option value="POUPANCA"> Conta poupança</option>
+</select>
+
+    <br><br><label for="id">Selecione uma pessoa</label>
+    <br><select id="pessoa">
+    </select>
+    <br><br>
+    <button id="btnConta" type="button">Cadastrar conta</button>
+
+
+</div>
+
+<script src="conta.js">
+</script>
+
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<a href="index.html">Cadastro de pessoa</a>-->
+<!--<a href="conta.html">Cadastro de conta corrente</a>-->
+<!--<a href="gerencia_conta.html">Gerencia conta</a>-->
+<!--<a href="contato.html">Contatos</a>-->
+<!--<br>-->
+<!--<br>-->
+<!--<br>-->
+<!--<div>-->
+<!--    <label for="numero_conta">Número conta</label>-->
+<!--    <input id="numero_conta" type="text" readonly><br>-->
+<!--    <p>-->
+<!--        <label for="saldo">Saldo</label>-->
+<!--        <input id="saldo" type="text" readonly>-->
+<!--    </p>-->
+<!--    <label for="tipo_conta">Selecione o tipo da conta-->
+<!--    <select id="tipo_conta">-->
+<!--        <option value="corrente">Conta corrente</option>-->
+<!--        <option value="paupanca">Conta poupança</option>-->
+<!--    </select><br>-->
+<!--    <label for="pessoa">Selecione uma pessoa-->
+<!--    <select id="pessoa">-->
+<!--    </select><br>-->
+<!--        <button type="button">Cadastrar conta</button>-->
+
+
+
+<!--</div>-->
+
+<!--<script src="conta.js"></script>-->
+<!--</body>-->
+<!--</html>-->

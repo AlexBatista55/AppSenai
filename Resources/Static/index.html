@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Banco digital SENAI</title>
+	<link rel="icon" type="image/x-icon" href="./images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<a href="index.html">Cadastro de pessoa</a>
+	<a href="conta.html">Cadastro de conta corrente</a>
+	<a href="gerencia_conta.html">Gerencia conta</a>
+	<a href="contato.html">Contato</a>
+	<div>
+		<h1>Cadastro de pessoa</h1>
+
+		<form id="cadastroPessoa">
+			<label class="teste" for="id">ID: </label><br>
+			<input type="text" id="identificador" name="identificador" readonly><br>
+			<label for="nome">Nome: </label><br>
+			<input type="text" id="nome" name="nome" required><br>
+			<label for="sexo">Sexo: </label><br>
+			<input type="text" id="sexo" name="sexo" required><br>
+			<button type="submit" id="salvar">Salvar</button>
+			<!--    <button type="submit" id="excluir">Excluir</button>-->
+
+		</form>
+	</div>
+
+	------------------------------------------------
+	</br>
+	<span id="inf"></span>
+	</br>
+
+	<div>
+		<button type="button" id="listarPessoas">Listar pessoas</button>
+		<table id="tabelaPessoas">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Nome</th>
+					<th>Sexo</th>
+					<th>Ações</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- JD vai preencher-->
+
+			</tbody>
+
+		</table>
+
+	</div>
+
+	<script src="pessoa.js">
+	</script>
+
+</body>
+
+</html>

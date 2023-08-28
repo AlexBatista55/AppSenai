@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Banco digital SESI SENAI</title>
+  <LINK rel="icon" type="icon/x-image" href="images/favicon.png">
+  <LINK rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<a href="index.html">Cadastro de pessoa</a>
+<a href="conta.html">Cadastre sua conta</a>
+<a href="gerenciar.html">Gerencie sua conta</a>
+<a href="contato.html">Contato</a>
+
+<h1>Seja bem vindo!</h1>
+
+<label>Selecione a opção desejada</label><br><br>
+
+<label for="deposito">Depositar:</label><br>
+<label for="pessoa">Selecione a conta em que ocorrerá o depósito</label><br>
+<select id = "pessoa_deposito"></select><br><br>
+
+<label for="deposito">Valor R$</label><br>
+<input id="deposito" type = text required><br><br>
+<button type="button" id="btnDeposito">Depositar agora</button><br><br><br>
+
+
+<label for="sacar">Sacar:</label><br>
+<label for="pessoa_sacar">Selecione a conta em que ocorrerá o saque</label><br>
+<select id = "pessoa_sacar"></select><br><br>
+
+<label for="sacar">Valor R$</label><br>
+<input id="sacar" type = text required><br><br>
+<button type="button" id="btnSaque">Sacar agora</button><br><br><br>
+
+
+<label for="quantidade">Transferir:</label><br>
+<label for="pessoa_origem">Selecione a pessoa de origem</label><br>
+<select id="pessoa_origem"></select><br><br>
+
+<label for="pessoa_destino">Selecione a pessoa de destino</label><br>
+<select id = "pessoa_destino"></select><br><br>
+
+
+<label for="quantidade">Valor R$</label><br>
+<input id="quantidade" type = text required><br><br>
+<button type="button" id="btnTransferir">Transferir</button>
+
+
+
+
+
+<script src="gerenciar.js">
+</script>
+
+</body>
+</html>
